@@ -1,0 +1,3 @@
+* Jane-build: Jenga + Jane Street rules
+
+`jane-build` is [[https://github.com/janestreet/jenga][jenga]] with [[https://github.com/janestreet/jenga-rules][Jane Street rules]] statically linked in.
