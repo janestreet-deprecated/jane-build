@@ -1,6 +1,9 @@
 (executables
  ((names (jane_build))
-  (public_release ((build_and_install ((jane_build jane-build)))))
-  (libraries (core jenga_rules jenga_lib))
+  (libraries (core jenga-rules jenga))
   (skip_from_default true)))
+
+(install
+ ((section bin)
+  (files  ((jane_build.exe as jane-build)))))
 
