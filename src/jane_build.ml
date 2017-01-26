@@ -1,4 +1,4 @@
-open Core.Std
+open Core
 module J = Jenga_lib
 
 let root_markers =
