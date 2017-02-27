@@ -7,3 +7,5 @@
  ((section bin)
   (files  ((jane_build.exe as jane-build)))))
 
+
+(jbuild_version jane_street)
