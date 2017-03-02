@@ -1,7 +1,8 @@
 (executables
  ((names (jane_build))
   (libraries (core jenga-rules jenga))
-  (skip_from_default true)))
+  (preprocess (pps (ppx_jane)))
+))
 
 (install
  ((section bin)
