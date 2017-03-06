@@ -10,11 +10,12 @@ build: [
 ]
 depends: [
   "core"
-  "jbuilder"
+  "jbuilder"                {build}
   "jenga"
   "jenga-rules"
   "ppx_driver"
   "ppx_jane"
+  "ocaml-migrate-parsetree"
 ]
 available: [ ocaml-version >= "4.03.0" ]
 descr: "
