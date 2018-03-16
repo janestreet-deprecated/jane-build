@@ -1,7 +1,7 @@
 (executables
  ((names (jane_build))
   (libraries (core jenga-rules jenga))
-  (preprocess (pps (ppx_jane ppx_driver.runner)))
+  (preprocess (pps (ppx_jane ppxlib.runner)))
 ))
 
 (install
